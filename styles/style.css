@@ -383,15 +383,6 @@
   margin: 0;
 }
 
-.footer__column_content_info {
-  /* Я сделал по БЭМу, добавив класс .footer_column, но в итоге правила для двух модификаторов,
-   обозначенных в брифе, оказались пустыми. Может, лучше вообще их удалить? */
-}
-
-.footer__column_content_social {
-
-}
-
 .footer__author {
   font-size: 18px;
   font-style: normal;
