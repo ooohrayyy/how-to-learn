@@ -4,6 +4,8 @@
 /* Импортируем базовый блок page */
 @import url(../blocks/page/page.css);
 
+/* Импортируем общие блоки и компоненты */
+
 /* Импортируем блок logo и его компоненты */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -36,11 +38,12 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-
 /* Импортируем блок rotation и его компоненты */
 @import url(../blocks/rotation/rotation.css);
 /* Импортируем блок link-transparent и его компоненты */
 @import url(../blocks/link-transparent/link-transparent.css);
+
+/* Импортируем уникальные блоки и компоненты */
 
 /* Импортируем блок header и его компоненты */
 @import url(../blocks/header/header.css);
