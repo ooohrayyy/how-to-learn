@@ -13,5 +13,6 @@
 }
 
 .feynman__link:hover {
-  text-decoration: underline;
+  opacity: .3;
+  transition: opacity .3s;
 }
