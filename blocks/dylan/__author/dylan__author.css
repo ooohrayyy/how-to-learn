@@ -1,0 +1,9 @@
+.dylan__author {
+  display: inline-block;
+  transform: translate(400px, 300px);
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+}

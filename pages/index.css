@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 /* Импортируем normalize.css */
 @import url(../vendor/normalize.css);
@@ -85,6 +86,12 @@
 @import url(../blocks/khan/__book-container/khan__book-container.css);
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
+/* Импортируем блок dylan и его компоненты */
+@import url(../blocks/dylan/dylan.css);
+@import url(../blocks/dylan/__image/dylan__image.css);
+@import url(../blocks/dylan/__lyrcis/dylan__lyrics.css);
+@import url(../blocks/dylan/__author/dylan__author.css);
+@import url(../blocks/dylan/__song/dylan__song.css);
 /* Импортируем блок kaufman и его компоненты */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
