@@ -1,3 +1,8 @@
+/* Импортируем шрифты */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 /* Импортируем normalize.css */
 @import url(../vendor/normalize.css);
 
