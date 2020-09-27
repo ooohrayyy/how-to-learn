@@ -10,9 +10,9 @@
   line-height: 51px;
   text-decoration: none;
   color: #000;
+  transition: .3s linear;
 }
 
 .feynman__link:hover {
   opacity: .3;
-  transition: opacity .3s;
 }

@@ -7,9 +7,9 @@
   text-decoration: none;
   list-style: none;
   color: white;
+  transition: .3s linear;
 }
 
 .footer__column-link:hover {
   opacity: .3;
-  transition: opacity .3s;
 }

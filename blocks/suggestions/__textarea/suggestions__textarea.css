@@ -1,0 +1,6 @@
+.suggestions__textarea {
+  box-sizing: content-box;
+  margin-bottom: 25px;
+  width: 600px;
+  height: 270px;
+}
