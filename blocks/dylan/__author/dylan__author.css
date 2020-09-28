@@ -1,4 +1,8 @@
 .dylan__author {
+  -ms-transform: translate(0, 55px);
+  -webkit-transform: translate(0, 55px);
+  -moz-transform: translate(0, 55px);
+  -o-transform: translate(0, 55px);
   transform: translate(0, 55px);
   padding: 0;
   margin: 0;

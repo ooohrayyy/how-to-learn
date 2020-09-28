@@ -1,4 +1,8 @@
 .dylan {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
   height: 100vh;
   background-color: #f2f2f2;

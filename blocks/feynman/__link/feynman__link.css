@@ -8,8 +8,12 @@
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
+  -webkit-text-decoration: none;
   text-decoration: none;
   color: #000;
+  -webkit-transition: .3s linear;
+  -moz-transition: .3s linear;
+  -o-transition: .3s linear;
   transition: .3s linear;
 }
 

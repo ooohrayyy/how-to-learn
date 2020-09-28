@@ -1,4 +1,8 @@
 .header {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
   position: relative;
   overflow: hidden;

@@ -1,5 +1,12 @@
 .two-columns {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
   justify-content: space-between;
   width: 80%;
   margin: 0;

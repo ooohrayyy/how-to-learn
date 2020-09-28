@@ -1,6 +1,12 @@
 .footer__columns {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
-  flex-direction: row;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
   justify-content: space-between;
   width: 90%;
   margin: 60px auto 40px auto;
