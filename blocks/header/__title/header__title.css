@@ -10,3 +10,10 @@
   font-size: 102px;
   line-height: 96px;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__title {
+    font-size: 66px;
+    transform: translate(0, -255px);
+  }
+}

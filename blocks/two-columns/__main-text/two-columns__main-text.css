@@ -12,3 +12,10 @@
   width: 80%;
   min-width: 784px;
 }
+
+@media screen and (max-width: 1279px) {
+  .two-columns__main-text {
+    min-width: 0;
+    padding-left: 10px;
+  }
+}
