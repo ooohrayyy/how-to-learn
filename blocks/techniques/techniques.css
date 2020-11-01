@@ -17,3 +17,9 @@
   padding-top: 100px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 500px) {
+  .techniques {
+    padding-top: 50px;
+  }
+}

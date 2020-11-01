@@ -1,11 +1,8 @@
 .cards {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 920px;
+  display: grid; /* Нужны вендорные префиксы */
+  grid-template-columns: repeat(auto-fit, 240px);
+  grid-column-gap: 100px;
+  grid-row-gap: 0;
+  justify-content: center;
+  width: 100%;
 }
