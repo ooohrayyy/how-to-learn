@@ -1,6 +1,7 @@
 .video__iframes {
   display: grid;
   grid-template-columns: repeat(2, 515px);
+  grid-template-rows: repeat(2, 316px);
   gap: 25px;
   margin: 50px auto 0;
 }
@@ -8,11 +9,13 @@
 @media screen and (max-width: 1100px) {
   .video__iframes {
     grid-template-columns: 515px;
+    grid-template-rows: repeat(4, 316px);
   }
 }
 
 @media screen and (max-width: 600px) {
   .video__iframes {
     grid-template-columns: 300px;
+    margin-top: 25px;
   }
 }
