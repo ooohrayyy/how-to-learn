@@ -13,3 +13,13 @@
   font-weight: normal;
   line-height: 34px;
 }
+
+@media screen and (max-width: 399px) {
+  .two-columns__paragraph {
+    font-size: 15px;
+  }
+
+  .two-columns__paragraph:last-of-type {
+    font-size: 15px;
+  }
+}

@@ -7,3 +7,15 @@
   line-height: 1.2;
   color: #2f80ed;
 }
+
+@media screen and (max-width: 425px) {
+  .two-columns__brief {
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .two-columns__brief {
+    font-size: 13px;
+  }
+}
