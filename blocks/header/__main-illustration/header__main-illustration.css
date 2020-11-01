@@ -12,3 +12,22 @@
     bottom: -50px;
   }
 }
+
+@media screen and (max-width: 570px) {
+  .header__main-illustration {
+    height: 500px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__main-illustration {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .header__main-illustration {
+    height: 325px;
+  }
+}

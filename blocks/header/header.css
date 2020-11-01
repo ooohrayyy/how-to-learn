@@ -1,15 +1,21 @@
 .header {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
   position: relative;
   overflow: hidden;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  margin: 0;
-  padding: 0;
   background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 499px) {
+  .header {
+    min-height: auto;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .header {
+    height: 450px;
+  }
 }

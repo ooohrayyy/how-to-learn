@@ -1,6 +1,9 @@
 .logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
   z-index: 2;
+}
+
+@media screen and (max-width: 349px) {
+  .logo_place_header {
+    width: 125px;
+  }
 }
