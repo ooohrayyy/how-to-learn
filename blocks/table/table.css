@@ -15,8 +15,14 @@
   -webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
   justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto 0;
+  max-width: 1100px;
+  margin: 0 25px 0;
   padding: 0;
   list-style: none;
+}
+
+@media screen and (max-width: 549px) {
+  .table {
+    flex-direction: column;
+  }
 }
