@@ -11,3 +11,10 @@
 .header__link:hover {
   opacity: .3;
 }
+
+@media screen and (max-width: 390px) {
+  .header__link {
+    text-decoration: underline;
+    color: white;
+  }
+}
