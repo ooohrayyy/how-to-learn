@@ -20,3 +20,43 @@
 .feynman__link:hover {
   opacity: .3;
 }
+
+@media screen and (max-width: 1049px) {
+  .feynman__link {
+    top: 70%;
+    right: 20%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__link {
+    top: 60%;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .feynman__link {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .feynman__link {
+    top: 60%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .feynman__link {
+    right: 25%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .feynman__link {
+    right: 22%;
+  }
+}

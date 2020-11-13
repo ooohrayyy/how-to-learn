@@ -8,3 +8,29 @@
   font-weight: normal;
   line-height: 51px;
 }
+
+@media screen and (max-width: 799px) {
+  .feynman__subtitle {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__subtitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .feynman__subtitle {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .feynman__subtitle {
+    margin-top: 10px;
+  }
+}
