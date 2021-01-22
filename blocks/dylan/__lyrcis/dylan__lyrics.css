@@ -1,5 +1,11 @@
 .dylan__lyrics {
-  padding: 0;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: center;
+  align-self: flex-end;
+  padding: 50px;
   margin: 0;
   font-family: Courgette, cursive;
   font-size: 60px;

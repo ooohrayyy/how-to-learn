@@ -88,10 +88,6 @@
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 /* Импортируем блок dylan и его компоненты */
 @import url(../blocks/dylan/dylan.css);
-@import url(../blocks/dylan/__main-container/dylan__main-container.css);
-@import url(../blocks/dylan/__text-container/dylan__text-container.css);
-@import url(../blocks/dylan/__frame-container/dylan__frame-container.css);
-@import url(../blocks/dylan/__image-container/dylan__image-container.css);
 @import url(../blocks/dylan/__image/dylan__image.css);
 @import url(../blocks/dylan/__lyrcis/dylan__lyrics.css);
 @import url(../blocks/dylan/__author/dylan__author.css);

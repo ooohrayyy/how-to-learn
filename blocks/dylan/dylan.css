@@ -1,9 +1,7 @@
 .dylan {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   height: 100vh;
   background-color: #f2f2f2;
   overflow: hidden;
