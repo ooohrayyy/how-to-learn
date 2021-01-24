@@ -5,4 +5,5 @@
   font-weight: bold;
   line-height: 30px;
   color: white;
+  white-space: nowrap;
 }
