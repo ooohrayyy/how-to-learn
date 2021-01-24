@@ -15,3 +15,9 @@
   align-items: center;
   padding: 100px 0;
 }
+
+@media screen and (max-width: 1149px) {
+  .resources {
+    padding-bottom: 50px;
+  }
+}

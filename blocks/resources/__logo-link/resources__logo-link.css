@@ -1,3 +1,9 @@
 .resources__logo-link {
   display: inline-block;
 }
+
+@media screen and (max-width: 1149px) {
+  .resources__logo-link {
+    margin-bottom: 50px;
+  }
+}
