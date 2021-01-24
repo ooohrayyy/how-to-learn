@@ -4,3 +4,10 @@
   width: 600px;
   height: 270px;
 }
+
+@media screen and (max-height: 639px) {
+  .suggestions__textarea {
+    width: 500px;
+    height: 135px;
+  }
+}
