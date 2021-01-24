@@ -8,7 +8,13 @@
   line-height: 1.15;
 }
 
-@media screen and (max-width: 599px) { /* 599 */
+@media screen and (max-width: 790px) {
+  .section-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 599px) {
   .section-title {
     font-size: 45px;
   }
@@ -19,3 +25,4 @@
     font-size: 33px;
   }
 }
+

@@ -7,3 +7,9 @@
   width: 90%;
   border: none;
 }
+
+@media screen and (max-width: 790px) {
+  .dylan__song {
+    align-self: flex-start;
+  }
+}
