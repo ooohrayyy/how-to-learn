@@ -1,0 +1,9 @@
+.content__table {
+  margin: 0 25px;
+}
+
+@media screen and (max-width: 650px) {
+  .content-table {
+    margin: 0 35px;
+  }
+}

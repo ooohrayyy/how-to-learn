@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <header class="page__header header">
         <div class="header__content">
           <img class="logo logo_place_header" src="<%=require('./images/logos/praktikum-logo/logo_place_header.svg')%>"
           alt="Логотип «Яндекс.Практикума»">
@@ -39,9 +39,9 @@
             </div>
           </div>
         </section>
-        <section class="techniques">
-          <h2 class="section-title">Техники обучения</h2>
-          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <section class="content__techniques techniques">
+          <h2 class="section-title section-title_type_common">Техники обучения</h2>
+          <p class="section-subtitle section-subtitle_type_common">Пять практик от Барбары Оакли</p>
           <div class="cards">
             <!-- Первая карточка -->
             <div class="cards__item">
@@ -82,8 +82,8 @@
           </div>
         </section>
         <section class="video">
-          <h2 class="section-title">Обучающее видео</h2>
-          <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+          <h2 class="section-title section-title_type_common">Обучающее видео</h2>
+          <p class="section-subtitle section-subtitle_type_common">Для тех, кто любит прокрастинировать</p>
           <div class= "video__iframes">
             <iframe class="video__iframe"
             src="https://www.youtube.com/embed/arj7oStGLkU"
@@ -121,9 +121,9 @@
           <a class="feynman__link" href=#>Подробнее &rarr;</a>
         </section>
         <section class="digits">
-          <h2 class="section-title">Цифры и факты</h2>
-          <p class="section-subtitle">Про учёбу и мозг</p>
-          <ul class="table">
+          <h2 class="section-title section-title_type_common">Цифры и факты</h2>
+          <p class="section-subtitle section-subtitle_type_common">Про учёбу и мозг</p>
+          <ul class="content__table table">
             <li class="table__cell">
               <h3 class="table__heading">86 миллиардов</h3>
               <p class="table__text">Число нейронов в мозге человека</p>
@@ -184,10 +184,10 @@
             </div>
           </div>
         </section>
-        <section class="kaufman">
-          <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-          <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-          <ul class="table table_theme_dark">
+        <section class="content__kaufman kaufman">
+          <h2 class="section-title section-title_type_common section-title_theme_dark">Принципы обучения</h2>
+          <p class="section-subtitle section-subtitle_type_common section-subtitle_theme_dark">от Джоша Кауфмана</p>
+          <ul class="content__table table table_theme_dark">
             <li class="table__cell table__cell_theme_dark">
               <h3 class="table__heading table__heading_theme_dark">1</h3>
               <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -232,8 +232,8 @@
           <div class="kaufman__triangle rotation"></div>
         </section>
         <section class="resources">
-          <h2 class="section-title">Полезные ресурсы</h2>
-          <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+          <h2 class="section-title section-title_type_common">Полезные ресурсы</h2>
+          <p class="section-subtitle section-subtitle_type_common">Больше материалов о техниках и лайфхаках обучения</p>
           <ul class="resources__logo-zone">
             <li class="resources__logo-link">
               <a href="https://arzamas.academy/">
@@ -261,9 +261,9 @@
             </li>
           </ul>
         </section>
-        <section class="suggestions">
-          <h2 class="section-title">Есть о чём рассказать?</h2>
-          <p class="section-subtitle">Предложите нам свой материал об образовании</p>
+        <section class="content__suggestions suggestions">
+          <h2 class="section-title section-title_type_common">Есть о чём рассказать?</h2>
+          <p class="section-subtitle section-subtitle_type_common">Предложите нам свой материал об образовании</p>
           <form class="suggestions__form" action="#" method="post">
             <textarea class="suggestions__textarea" name="suggestion"></textarea>
             <button class="suggestions__submit" type="submit">Отправить</button>
