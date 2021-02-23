@@ -1,3 +1,10 @@
 .suggestions__form {
+  width: 80%;
   margin: 50px 0 0 0;
+}
+
+@media screen and (min-width: 800px) {
+  .suggestions__form {
+    width: 60%;
+  }
 }

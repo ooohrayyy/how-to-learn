@@ -2,3 +2,9 @@
   width: 183px;
   height: 35px;
 }
+
+@media screen and (max-width: 640px) {
+  .logo_place_footer {
+    margin-bottom: 30px;
+  }
+}

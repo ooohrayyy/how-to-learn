@@ -9,3 +9,10 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .footer__column_content_copyright {
+    flex-basis: initial;
+    order: 3;
+  }
+}

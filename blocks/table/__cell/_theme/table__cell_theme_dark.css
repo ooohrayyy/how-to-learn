@@ -4,3 +4,9 @@
   margin: 80px 0 0 0;
   color: white;
 }
+
+@media screen and (max-width: 426px) {
+  .table__cell_theme_dark {
+    margin-top: 30px;
+  }
+}

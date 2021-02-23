@@ -24,3 +24,13 @@
     align-self: center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .dylan__lyrics {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 55px;
+  }
+}
