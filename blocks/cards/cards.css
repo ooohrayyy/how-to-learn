@@ -1,5 +1,5 @@
 .cards {
-  display: grid; /* Нужны вендорные префиксы */
+  display: grid;
   grid-template-columns: repeat(auto-fit, 240px);
   grid-column-gap: 100px;
   grid-row-gap: 0;

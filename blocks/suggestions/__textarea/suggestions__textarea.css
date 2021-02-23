@@ -1,21 +1,6 @@
 .suggestions__textarea {
   box-sizing: content-box;
   margin-bottom: 25px;
-  /* width: 600px; */
   width: 95%;
   height: 270px;
 }
-
-/* @media screen and (max-height: 639px) {
-  .suggestions__textarea {
-    width: 500px;
-    height: 135px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .suggestions__textarea {
-    margin: 0 auto;
-    width: 95%;
-  }
-} */

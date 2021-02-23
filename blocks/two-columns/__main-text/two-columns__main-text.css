@@ -1,13 +1,5 @@
 .two-columns__main-text {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: flex;
-  -ms-flex-direction: column;
-  -webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
   flex-direction: column;
   width: 80%;
   min-width: 784px;

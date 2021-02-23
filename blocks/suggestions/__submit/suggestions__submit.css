@@ -9,9 +9,6 @@
   color: white;
   background-color: #2f80ed;
   outline: none;
-  -webkit-transition: .3s linear;
-  -moz-transition: .3s linear;
-  -o-transition: .3s linear;
   transition: .3s linear;
 }
 

@@ -1,19 +1,7 @@
 .table {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: baseline;
-	-webkit-align-items: baseline;
-	-ms-flex-align: baseline;
   align-items: baseline;
-  -ms-flex-pack: justify;
-  -webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
   justify-content: space-between;
   max-width: 1100px;
   margin: 0 25px;
