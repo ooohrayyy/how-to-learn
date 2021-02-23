@@ -7,21 +7,20 @@
     <meta name="keywords" content="Образование, обучение, практика, теория, Яндекс, Практикум">
     <meta name="author" content="Борис Никиташов">
     <meta name="author" content="Виктор Абанькин">
-    <link href="./pages/index.css" rel="stylesheet">
     <title>Научиться учиться</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
         <div class="header__content">
-          <img class="logo logo_place_header" src="./images/logos/praktikum-logo/logo_place_header.svg"
+          <img class="logo logo_place_header" src="<%=require('./images/logos/praktikum-logo/logo_place_header.svg')%>"
           alt="Логотип «Яндекс.Практикума»">
           <h1 class="header__title">Научиться учиться</h1>
           <p class="header__subtitle">Какие современные и эффективные подходы
           к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">
           Узнать &rarr;</a></p>
         </div>
-        <img class="header__main-illustration" src="./images/page-images/header-image.png"
+        <img class="header__main-illustration" src="<%=require('./images/page-images/header-image.png')%>"
         alt="Картина «Опять двойка» Фёдора Решетникова">
         <div class="header__square-pic rotation"></div>
       </header>
@@ -46,35 +45,35 @@
           <div class="cards">
             <!-- Первая карточка -->
             <div class="cards__item">
-              <img class="cards__image" src="./images/cards-images/cards-attention.png"
+              <img class="cards__image" src="<%require('./images/cards-images/cards-attention.png')%>"
               alt="Книга «101 Essays That Will Change The Way You Think» Брианны Вист">
               <h3 class="cards__title">Два вида внимания</h3>
               <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
             </div>
             <!-- Вторая карточка -->
             <div class="cards__item">
-              <img class="cards__image" src="./images/cards-images/cards-recall.png"
+              <img class="cards__image" src="<%require('./images/cards-images/cards-recall.png')%>"
               alt="Мраморная статуя">
               <h3 class="cards__title">Recall</h3>
               <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
             </div>
             <!-- Третья карточка -->
             <div class="cards__item">
-              <img class="cards__image" src="./images/cards-images/cards-interliving.png"
+              <img class="cards__image" src="<%require('./images/cards-images/cards-interliving.png')%>"
               alt="Собрание людей в большом зале">
               <h3 class="cards__title">Интерливинг</h3>
               <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
             </div>
             <!-- Четвёртая карточка -->
             <div class="cards__item">
-              <img class="cards__image" src="./images/cards-images/cards-question.png"
+              <img class="cards__image" src="<%require('./images/cards-images/cards-question.png')%>"
               alt="Человек в пустом помещении">
               <h3 class="cards__title">Вопросы</h3>
               <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
             </div>
             <!-- Пятая карточка -->
             <div class="cards__item">
-              <img class="cards__image" src="./images/cards-images/cards-competence.png"
+              <img class="cards__image" src="<%require('./images/cards-images/cards-competence.png')%>"
               alt="Стопка книг в руке">
               <h3 class="cards__title">Иллюзия компетентности</h3>
               <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой
@@ -165,7 +164,7 @@
           <blockquote class="dylan__lyrics">He not busy being born is busy dying
             <span class="dylan__author">— Боб Дилан</span>
           </blockquote>
-          <img class="dylan__image" src="../images/page-images/dylan.jpg" alt="Портрет Боба Дилана">
+          <img class="dylan__image" src="<%require('./images/page-images/dylan.jpg')%>" alt="Портрет Боба Дилана">
           <iframe class="dylan__song"
           src="https://music.yandex.ru/iframe/#track/646507/497949">
           </iframe>
@@ -180,7 +179,7 @@
             <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <img class="khan__book-pic" src="images/page-images/khan-book.jpg" alt="Книга «Весь мир — школа» Салмана Хана">
+              <img class="khan__book-pic" src="<%require('./images/page-images/khan-book.jpg')%>" alt="Книга «Весь мир — школа» Салмана Хана">
               <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
             </div>
           </div>
@@ -237,20 +236,28 @@
           <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
           <ul class="resources__logo-zone">
             <li class="resources__logo-link">
-              <a href="https://arzamas.academy/"><img class="resources__logo" src="./images/logos/resources-logo/resources-arzamas.svg"
-              alt="Логотип Arzamas"></a>
+              <a href="https://arzamas.academy/">
+                <img class="resources__logo" src="<%require('./images/logos/resources-logo/resources-arzamas.svg')%>"
+                alt="Логотип Arzamas">
+              </a>
             </li>
             <li class="resources__logo-link">
-              <a href="https://nplus1.ru/"><img class="resources__logo" src="./images/logos/resources-logo/resources-n1.svg"
-              alt="Логотип N+1"></a>
+              <a href="https://nplus1.ru/">
+                <img class="resources__logo" src="<%require('./images/logos/resources-logo/resources-n1.svg')%>"
+                alt="Логотип N+1">
+              </a>
             </li>
             <li class="resources__logo-link">
-              <a href="https://strelka.com/"><img class="resources__logo" src="./images/logos/resources-logo/resources-strelka.svg"
-              alt="Логотип «Стрелки»"></a>
+              <a href="https://strelka.com/">
+                <img class="resources__logo" src="<%require('./images/logos/resources-logo/resources-strelka.svg')%>"
+                alt="Логотип «Стрелки»">
+              </a>
             </li>
             <li class="resources__logo-link">
-              <a href="https://polka.academy/"><img class="resources__logo" src="./images/logos/resources-logo/resources-polka.svg"
-              alt="Логотип «Полки»"></a>
+              <a href="https://polka.academy/">
+                <img class="resources__logo" src="<%require('./images/logos/resources-logo/resources-polka.svg')%>"
+                alt="Логотип «Полки»">
+            </a>
             </li>
           </ul>
         </section>
@@ -266,7 +273,7 @@
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
-            <img class="logo logo_place_footer" src="./images/logos/praktikum-logo/logo_place_footer.svg"
+            <img class="logo logo_place_footer" src="<%require('./images/logos/praktikum-logo/logo_place_footer.svg')%>"
             alt="Логотип «Яндекс.Практикума»">
             <address class="footer__author">&copy; 2020. Борис Никиташов</address>
           </div>
@@ -289,17 +296,17 @@
             <ul class="footer__column-links">
               <li>
                 <a class="footer__column-link" href="https://www.facebook.com/yandex.praktikum/">
-                <img class="footer__social-icon" src="./images/logos/snetworks-logo/facebook_color_white.svg"
+                <img class="footer__social-icon" src="<%require('./images/logos/snetworks-logo/facebook_color_white.svg')%>"
                 alt="Логотип Facebook">Facebook</a>
               </li>
               <li>
                 <a class="footer__column-link" href="https://vk.com/yandex.praktikum">
-                <img class="footer__social-icon" src="./images/logos/snetworks-logo/vk_color_white.svg"
+                <img class="footer__social-icon" src="<%require('./images/logos/snetworks-logo/vk_color_white.svg')%>"
                 alt="Логотип «ВКонтакте»">ВКонтакте</a>
               </li>
               <li>
                 <a class="footer__column-link" href="https://www.instagram.com/yndx.praktikum">
-                <img class="footer__social-icon" src="./images/logos/snetworks-logo/instagram_color_white.svg"
+                <img class="footer__social-icon" src="<%require('./images/logos/snetworks-logo/instagram_color_white.svg')%>"
                 alt="Логотип Instagram">Instagram</a>
               </li>
             </ul>
