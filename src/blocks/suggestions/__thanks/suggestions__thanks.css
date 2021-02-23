@@ -1,0 +1,4 @@
+.suggestions__thanks {
+  display: none;
+  transition: .3s linear;
+}

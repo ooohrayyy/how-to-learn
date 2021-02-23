@@ -147,6 +147,7 @@
 @import url(../blocks/suggestions/__form/suggestions__form.css);
 @import url(../blocks/suggestions/__textarea/suggestions__textarea.css);
 @import url(../blocks/suggestions/__submit/suggestions__submit.css);
+@import url(../blocks/suggestions/__thanks/suggestions__thanks.css);
 
 /* Импортируем блок footer и его компоненты */
 
